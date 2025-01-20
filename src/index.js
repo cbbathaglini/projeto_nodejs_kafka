@@ -14,6 +14,7 @@ const run = async () => {
       const randomMessage = `Random message: ${Math.random()}`;
       await sendMessage(randomMessage);
     }, 5000);
+    
   } catch (error) {
     console.error('Error in Kafka application:', error);
   }
