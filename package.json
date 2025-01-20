@@ -1,0 +1,13 @@
+{
+    "name": "nodejs-kafka",
+    "version": "1.0.0",
+    "description": "Node.js Kafka Producer and Consumer",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js"
+    },
+    "dependencies": {
+      "kafkajs": "^2.2.4"
+    }
+  }
+  
